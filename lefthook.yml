@@ -1,0 +1,8 @@
+pre-commit:
+  commands:
+    lint:
+      run: npm run lint --fix
+    prettier:
+      run: prettier --write .
+    test:
+      run: npm run test -- --maxWorkers=50% --passWithNoTests
