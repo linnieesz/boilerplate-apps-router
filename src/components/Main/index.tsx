@@ -13,7 +13,10 @@ const Main = ({
 
     <S.Title>{title}</S.Title>
     <S.Description>{description}</S.Description>
-    <S.Illustration src="/img/hero-illustration.svg" alt="Um desenvolvedor de frente para a tela com código." />
+    <S.Illustration
+      src="/img/hero-illustration.svg"
+      alt="Um desenvolvedor de frente para a tela com código."
+    />
   </S.Wrapper>
 )
 export default Main

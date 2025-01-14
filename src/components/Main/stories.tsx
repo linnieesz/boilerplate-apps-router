@@ -7,7 +7,7 @@ export default {
   parameters: {
     layout: 'fullscreen'
   }
-} as Meta;
+} as Meta
 
 export const Default: StoryObj = {}
 
