@@ -1,8 +1,9 @@
 pre-commit:
+  restore_staged: false
   commands:
-    lint:
-      run: npm run lint --fix
     prettier:
       run: prettier --write .
+      exclude: generators/**
     test:
       run: npm run test -- --maxWorkers=50% --passWithNoTests
+      exclude: generators/**

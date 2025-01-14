@@ -1,5 +1,5 @@
 'use client'
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
 *{
@@ -21,4 +21,4 @@ body {
 }
 `
 
-export default GlobalStyles;
+export default GlobalStyles

@@ -3,7 +3,7 @@ import { css } from 'styled-components'
 declare global {
   namespace jest {
     interface AsymmetricMatcher {
-      $$typeof: Symbol
+      $$typeof: symbol
       sample?: string | RegExp | object | Array<any> | Function
     }
     type Value = string | number | RegExp | AsymmetricMatcher | undefined
